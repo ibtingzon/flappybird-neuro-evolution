@@ -13,7 +13,7 @@ import gc
 
 NGEN = 1000
 SIZE = 50
-GEN = 0
+GEN = 30
 
 FPS = 30
 SCREENWIDTH  = 288
@@ -71,7 +71,7 @@ def main():
     population = []
     for i in range(SIZE + int(SIZE/2)):
         player = Player()
-        #player.loadModel(GEN, i)
+        player.loadModel(GEN, i)
         population.append(player)
 
     pygame.init()

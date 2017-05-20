@@ -1,6 +1,5 @@
 # Flappybird - Neuro-evolution
 Flappy bird trained using neural networks and genetic algorithm. 
-* Flappybird learns after around 10-20 generations
 * Genetic algorithm implements elitism to preserve the best solutions
 * Used only 2 inputs:
 	* Horizontal distance from next pipe
